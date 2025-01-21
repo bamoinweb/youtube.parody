@@ -89,10 +89,16 @@ body{
     column-gap: 10px;
     margin-bottom: 
 }
-@media(max-width:700px){
+@media(max-width:650px){
     .whole_video_grade{
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
     }
+}
+@media (min-width:651px) and (max-width:900px){
+    .whole_video_grade{
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 .header{
     display: flex;

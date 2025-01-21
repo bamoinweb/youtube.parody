@@ -89,6 +89,11 @@ body{
     column-gap: 10px;
     margin-bottom: 
 }
+@media(max-width:700px){
+    .whole_video_grade{
+        grid-template-columns: auto;
+    }
+}
 .header{
     display: flex;
     flex-direction: row;
